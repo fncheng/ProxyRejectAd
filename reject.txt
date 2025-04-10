@@ -1,2 +1,4 @@
 payload:
   - missav.com
+  - '+.18comic.vip'
+  - pronhub.com
