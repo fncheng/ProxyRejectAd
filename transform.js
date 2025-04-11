@@ -24,7 +24,8 @@ fs.readFile(inputFile, 'utf8', (err, data) => {
   const domains = data.trim().split('\n').map(line => line.trim()).filter(line => line !== '');
   const quantumultxRules = domains.map(domain => {
     const normalizedDomain = domain.startsWith('*') ? domain.substring(2) : domain;
-    return `host-suffix,${normalizedDomain},reject`;
+    const ruleType = normalizedDomain.includes('.') ? 'host-suffix' : 'host-keyword';
+    return `${ruleType},${normalizedDomain},reject`;
   });
 
   const outputContent = quantumultxRules.join('\n');
