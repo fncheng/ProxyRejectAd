@@ -1,3 +1,4 @@
 missav.com
-'*.18comic.vip
+*.18comic.vip
 pronhub.com
+
