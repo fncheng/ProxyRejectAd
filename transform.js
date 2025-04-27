@@ -12,7 +12,7 @@ if (!inputFile) {
 // 构建输出文件路径
 const inputFileName = path.basename(inputFile); // 获取文件名 (例如: reject.txt)
 const inputFileNameWithoutExt = path.parse(inputFileName).name; // 获取不带扩展名的文件名 (例如: reject)
-const outputFileName = `qx_${inputFileNameWithoutExt}.list`;
+const outputFileName = `qx_${inputFileNameWithoutExt}.snippet`;
 const outputFilePath = path.join(__dirname, outputFileName);
 
 fs.readFile(inputFile, 'utf8', (err, data) => {
