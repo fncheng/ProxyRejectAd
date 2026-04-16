@@ -1,0 +1,10 @@
++.bilibili.com
++.biliapi.com
++.biliapi.net
++.hdslb.com
++.b23.tv
++.acg.tv
++.acgvideo.com
++.biligame.com
++.biligame.net
++.im9.com
