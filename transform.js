@@ -15,8 +15,10 @@ const RULE_TYPE_MAP = {
 
 /**
  * 将 txt 格式的域名列表转换为 Quantumult X 规则行
+ * @param {string} data 文件内容
+ * @param {string} policy 策略名称（取自文件名）
  */
-function convertTxtLines(data) {
+function convertTxtLines(data, policy) {
   return data
     .trim()
     .split('\n')
@@ -25,7 +27,7 @@ function convertTxtLines(data) {
     .map((domain) => {
       const normalizedDomain = domain.startsWith('*.') || domain.startsWith('+.') ? domain.substring(2) : domain
       const ruleType = normalizedDomain.includes('.') ? 'host-suffix' : 'host-keyword'
-      return `${ruleType},${normalizedDomain},reject`
+      return `${ruleType},${normalizedDomain},${policy}`
     })
 }
 
@@ -64,7 +66,7 @@ function convertFile(inputFile) {
       return
     }
 
-    const rules = ext === '.yaml' ? convertYamlLines(data) : convertTxtLines(data)
+    const rules = ext === '.yaml' ? convertYamlLines(data) : convertTxtLines(data, inputFileNameWithoutExt)
     const outputContent = rules.join('\n')
 
     fs.writeFile(outputFilePath, outputContent, 'utf8', (err) => {
