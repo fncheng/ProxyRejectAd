@@ -21,7 +21,7 @@ function convertFile(inputFile) {
       .trim()
       .split('\n')
       .map((line) => line.trim())
-      .filter((line) => line !== '')
+      .filter((line) => line !== '' && !line.startsWith('#'))
     const quantumultxRules = domains.map((domain) => {
       const normalizedDomain = domain.startsWith('*.') || domain.startsWith('+.') ? domain.substring(2) : domain
       const ruleType = normalizedDomain.includes('.') ? 'host-suffix' : 'host-keyword'
