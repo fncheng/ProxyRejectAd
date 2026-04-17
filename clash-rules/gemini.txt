@@ -1,3 +1,4 @@
 +.gemini.google
 +.gemini.google.com
++.gemini.gstatic.com
 +.googleusercontent.com

@@ -26,6 +26,7 @@
 +.dependabot.com
 +.github.community
 +.github.dev
++.githubcopilot.com
 +.copilot.github.com
 +.copilot-proxy.githubusercontent.com
 # ------

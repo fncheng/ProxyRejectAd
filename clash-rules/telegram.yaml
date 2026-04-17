@@ -5,31 +5,49 @@ payload:
   - DOMAIN-SUFFIX,telegra.ph,Proxy
   - DOMAIN-SUFFIX,telegram.me,Proxy
   - DOMAIN-SUFFIX,telegram.org,Proxy
+  - DOMAIN-SUFFIX,telegram.dog,Proxy
+  - DOMAIN-SUFFIX,telegram.space,Proxy
+  - DOMAIN-SUFFIX,telegramdownload.com,Proxy
+  - DOMAIN-SUFFIX,telesco.pe,Proxy
+  - DOMAIN-SUFFIX,tg.dev,Proxy
+  - DOMAIN-SUFFIX,tx.me,Proxy
+  - DOMAIN-SUFFIX,usercontent.dev,Proxy
+  - DOMAIN-SUFFIX,cdn-telegram.org,Proxy
+  - DOMAIN-SUFFIX,telegram-cdn.org,Proxy
   # IP
   - IP-CIDR,67.198.55.0/24,Proxy
   - IP-CIDR,91.108.4.0/22,Proxy
   - IP-CIDR,91.108.8.0/22,Proxy
   - IP-CIDR,91.108.12.0/22,Proxy
   - IP-CIDR,91.108.16.0/22,Proxy
+  - IP-CIDR,91.108.20.0/22,Proxy
   - IP-CIDR,91.108.56.0/22,Proxy
+  - IP-CIDR,91.105.192.0/23,Proxy
   - IP-CIDR,109.239.140.0/24,Proxy
   - IP-CIDR,149.154.160.0/20,Proxy
   - IP-CIDR,205.172.60.0/22,Proxy
+  - IP-CIDR,185.76.151.0/24,Proxy
   # > Twitter
-  - DOMAIN-SUFFIX, twitter.com, Proxy
-  - DOMAIN-SUFFIX, twimg.com, Proxy
-  - DOMAIN-SUFFIX, t.co, Proxy
-  - DOMAIN-SUFFIX, pscp.tv, Proxy
-  - DOMAIN-SUFFIX, periscope.tv, Proxy
-  - DOMAIN-SUFFIX, twimg.co, Proxy
-  - DOMAIN-SUFFIX, twitpic.com, Proxy
-  - DOMAIN-SUFFIX, vine.co, Proxy
+  - DOMAIN-SUFFIX,x.com,Proxy
+  - DOMAIN-SUFFIX,twitter.com,Proxy
+  - DOMAIN-SUFFIX,t.co,Proxy
+  - DOMAIN-SUFFIX,twimg.com,Proxy
+  - DOMAIN-SUFFIX,abs.twimg.com,Proxy
+  - DOMAIN-SUFFIX,api.twitter.com,Proxy
+  - DOMAIN-SUFFIX,pbs.twimg.com,Proxy
+  - DOMAIN-SUFFIX,video.twimg.com,Proxy
+  - DOMAIN-SUFFIX,periscope.tv,Proxy
+  - DOMAIN-SUFFIX,pscp.tv,Proxy
+  - DOMAIN-SUFFIX,vine.co,Proxy
   # > Twitter
-  - IP-CIDR,69.195.160.0/19,Proxy
   - IP-CIDR,104.244.42.0/21,Proxy
   - IP-CIDR,192.133.76.0/22,Proxy
   - IP-CIDR,199.16.156.0/22,Proxy
   - IP-CIDR,199.59.148.0/22,Proxy
+  - IP-CIDR,204.92.112.0/22,Proxy
+  - IP-CIDR,8.25.194.0/23,Proxy
+  - IP-CIDR,8.25.196.0/23,Proxy
+  - IP-CIDR,69.195.160.0/19,Proxy
   - IP-CIDR,199.96.56.0/21,Proxy
   - IP-CIDR,202.160.128.0/22,Proxy
   - IP-CIDR,209.237.192.0/19,Proxy
