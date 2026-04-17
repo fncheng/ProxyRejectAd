@@ -1,0 +1,102 @@
+# IFly
++.iflytek.com
++.code.iflytek.com
++.feifan.iflytek.com
++.soft.iflytek.com
+# apple
++.apple.com.cn
++.icloud.com.cn
+# qq
++.qq.com
++.qqmail.com
++.qpic.cn
++.tencent.com
+
+# Baidu
++.baidu.com
++.bdstatic.com
+# 字节跳动
++.bytecdn.cn
++.pstatp.com
++.snssdk.com
++.toutiao.com
+
+# NetEase
++.163.com
++.126.net
++.163yun.com
+# Sohu
++.sohu.com.cn
++.itc.cn
++.sohu.com
++.v-56.com
+# Sina
++.weibo.com
++.weibo.cn
+# JD
++.jd.com
++.jd.hk
++.360buyimg.com
+# MI
++.duokan.com
++.mi-img.com
++.mifile.cn
++.xiaomi.com
+
+
+# Alibaba
++.alibaba.com
++.alicdn.com
++.amap.com
++.dingtalk.com
++.taobao.com
++.tmall.com
+# 动漫
++.yinghuacd.com
++.bf3.sbdm.cc
++.bfikuncdn.com
++.webmota.com
++.wxsy.net
+# 购物
++.amazon.cn
++.coolapk.com
+pcbeta.com
+zuanke8.com
+eastmoney.com
+datetime360.com
+# CDN
++.akadns.net
+#
+ipip.net
+ip.cn
+ip.la
+ip-cdn.com
+ipv6-test.com
+test-ipv6.com
+whatismyip.com
+ip.bjango.com
+itmyhome.com
+csdn.net
+broadcasthe.net
+cailianpress.com
+chdbits.co
+chushou.tv
+cmbchina.com
+cmbimg.com
+cmct.tv
+cnlang.org
+douyu.com
+douyucdn.cn
+dxycdn.com
+hicloud.com
+hdchina.org
+hdcmct.org
+ithome.com
+meituan.net
+mobike.com
+smzdm.com
+teamviewer.com
++.zhihu.com
++.zhimg.com
+douban.com
+

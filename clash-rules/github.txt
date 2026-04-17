@@ -28,3 +28,25 @@
 +.github.dev
 +.copilot.github.com
 +.copilot-proxy.githubusercontent.com
+# ------
+translate.googleapis.com
+postman.com
+vuejs.org
+mozilla.org
+apache.org
+gitbook.com
+ghcr.io
+figma.com
+tailwindcss.com
+algolianet.com
+ckeditor.com
+codesandbox.io
+csb.app
+medium.com
+jsdelivr.net
+jsdelivr.com
+packagecontrol.io
+npmjs.com
+npmjs.org
+translate.googleapis.com
+postman.com

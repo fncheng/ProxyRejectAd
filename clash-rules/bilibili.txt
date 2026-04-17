@@ -8,3 +8,6 @@
 +.biligame.com
 +.biligame.net
 +.im9.com
++.biligame.com
++.biligame.net
++.im9.com
