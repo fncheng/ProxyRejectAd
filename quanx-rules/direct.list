@@ -8,12 +8,15 @@ host-suffix,qq.com,direct
 host-suffix,qqmail.com,direct
 host-suffix,qpic.cn,direct
 host-suffix,tencent.com,direct
+host-suffix,tencentcos.cn,direct
 host-suffix,baidu.com,direct
 host-suffix,bdstatic.com,direct
 host-suffix,bytecdn.cn,direct
 host-suffix,pstatp.com,direct
 host-suffix,snssdk.com,direct
 host-suffix,toutiao.com,direct
+host-suffix,deepseek.com,direct
+host-suffix,netease.com,direct
 host-suffix,163.com,direct
 host-suffix,126.net,direct
 host-suffix,163yun.com,direct
@@ -36,6 +39,7 @@ host-suffix,amap.com,direct
 host-suffix,dingtalk.com,direct
 host-suffix,taobao.com,direct
 host-suffix,tmall.com,direct
+host-suffix,aliyuncs.com,direct
 host-suffix,yinghuacd.com,direct
 host-suffix,bf3.sbdm.cc,direct
 host-suffix,bfikuncdn.com,direct

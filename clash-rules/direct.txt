@@ -11,6 +11,7 @@
 +.qqmail.com
 +.qpic.cn
 +.tencent.com
++.tencentcos.cn
 
 # Baidu
 +.baidu.com
@@ -20,8 +21,11 @@
 +.pstatp.com
 +.snssdk.com
 +.toutiao.com
+# 国内ai
++.deepseek.com
 
 # NetEase
++.netease.com
 +.163.com
 +.126.net
 +.163yun.com
@@ -51,6 +55,7 @@
 +.dingtalk.com
 +.taobao.com
 +.tmall.com
++.aliyuncs.com
 # 动漫
 +.yinghuacd.com
 +.bf3.sbdm.cc
