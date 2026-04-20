@@ -2,3 +2,4 @@
 +.gemini.google.com
 +.gemini.gstatic.com
 +.googleusercontent.com
++.oauthaccountmanager.googleapis.com

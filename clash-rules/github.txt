@@ -29,9 +29,8 @@
 +.githubcopilot.com
 +.copilot.github.com
 +.copilot-proxy.githubusercontent.com
-# ------
+# ---------------
 translate.googleapis.com
-postman.com
 vuejs.org
 +.mozilla.org
 +.apache.org
@@ -40,7 +39,7 @@ ghcr.io
 figma.com
 tailwindcss.com
 algolianet.com
-ckeditor.com
++.ckeditor.com
 +.codesandbox.io
 +.csb.app
 medium.com
@@ -49,8 +48,7 @@ medium.com
 packagecontrol.io
 +.npmjs.com
 +.npmjs.org
-translate.googleapis.com
-postman.com
++.postman.com
 # microsoft
 +.microsoft.com
 +.windows.net

@@ -2,3 +2,4 @@ host-suffix,gemini.google,gemini
 host-suffix,gemini.google.com,gemini
 host-suffix,gemini.gstatic.com,gemini
 host-suffix,googleusercontent.com,gemini
+host-suffix,oauthaccountmanager.googleapis.com,gemini
