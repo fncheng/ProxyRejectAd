@@ -21,5 +21,6 @@ manga18.club
 +.htjrlm.com
 +.fjtroip.cn
 
-
++.swscan.apple.com
++.swdist.apple.com
 

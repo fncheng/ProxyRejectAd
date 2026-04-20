@@ -51,3 +51,21 @@ packagecontrol.io
 +.npmjs.org
 translate.googleapis.com
 postman.com
+# microsoft
++.microsoft.com
++.windows.net
+# WSL下载
++.windowsupdate.com
+# vscode
++.msecnd.net
++.vsassets.io
++.visualstudio.com
++.vscode-cdn.net
+# outlook
++.outlook.com
++.office365.com
++.microsoftonline.com
++.live.com
++.msauth.net
++.office.com
+

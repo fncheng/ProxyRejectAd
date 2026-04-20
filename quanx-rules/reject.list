@@ -16,3 +16,5 @@ host-suffix,qlspx.com,reject
 host-suffix,euqq.cn,reject
 host-suffix,htjrlm.com,reject
 host-suffix,fjtroip.cn,reject
+host-suffix,swscan.apple.com,reject
+host-suffix,swdist.apple.com,reject

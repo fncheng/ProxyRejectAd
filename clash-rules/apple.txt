@@ -1,0 +1,8 @@
++.itunes.apple.com
++.apple.com
++.mzstatic.com
++.icloud.com
++.cdn-apple.com
++.appsto.re
+# Spotlight
++.smoot.apple.com

@@ -49,3 +49,16 @@ host-suffix,npmjs.com,github
 host-suffix,npmjs.org,github
 host-suffix,translate.googleapis.com,github
 host-suffix,postman.com,github
+host-suffix,microsoft.com,github
+host-suffix,windows.net,github
+host-suffix,windowsupdate.com,github
+host-suffix,msecnd.net,github
+host-suffix,vsassets.io,github
+host-suffix,visualstudio.com,github
+host-suffix,vscode-cdn.net,github
+host-suffix,outlook.com,github
+host-suffix,office365.com,github
+host-suffix,microsoftonline.com,github
+host-suffix,live.com,github
+host-suffix,msauth.net,github
+host-suffix,office.com,github
