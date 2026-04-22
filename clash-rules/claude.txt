@@ -1,3 +1,6 @@
 +.anthropic.com
 +.claude.ai
 +.usefathom.com
++.intercom.io
++.intercomcdn.com
++.statsig.com
