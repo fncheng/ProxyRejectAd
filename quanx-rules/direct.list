@@ -9,6 +9,7 @@ host-suffix,qqmail.com,direct
 host-suffix,qpic.cn,direct
 host-suffix,tencent.com,direct
 host-suffix,tencentcos.cn,direct
+host-suffix,weixin.com,direct
 host-suffix,baidu.com,direct
 host-suffix,bdstatic.com,direct
 host-suffix,bytecdn.cn,direct
@@ -59,7 +60,7 @@ host-suffix,ip-cdn.com,direct
 host-suffix,ipv6-test.com,direct
 host-suffix,test-ipv6.com,direct
 host-suffix,whatismyip.com,direct
-host-suffix,ip.bjango.com,direct
+host-suffix,bjango.com,direct
 host-suffix,itmyhome.com,direct
 host-suffix,csdn.net,direct
 host-suffix,broadcasthe.net,direct
@@ -84,3 +85,4 @@ host-suffix,teamviewer.com,direct
 host-suffix,zhihu.com,direct
 host-suffix,zhimg.com,direct
 host-suffix,douban.com,direct
+host-suffix,wanmei.com,direct
