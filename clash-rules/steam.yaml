@@ -27,3 +27,5 @@ payload:
   - IP-CIDR,103.28.54.181/24,Steam
   - IP-CIDR,162.254.193.6/16,Steam
   - IP-CIDR,162.254.195.66/24,Steam
+  # Epicgames 下载
+  - DOMAIN-SUFFIX, epicgames-download1.akamaized.net, DIRECT
