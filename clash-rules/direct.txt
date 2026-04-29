@@ -106,4 +106,6 @@
 +.zhimg.com
 +.douban.com
 +.wanmei.com
+# 银行
++.cmbchina.com
 

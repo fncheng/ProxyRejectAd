@@ -9,3 +9,4 @@
 +.hero-sms.com
 +.pinterest.com
 +.pinimg.com
++.tradingview.com

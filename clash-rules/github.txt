@@ -30,7 +30,6 @@
 +.copilot.github.com
 +.copilot-proxy.githubusercontent.com
 # ---------------
-translate.googleapis.com
 vuejs.org
 +.mozilla.org
 +.apache.org

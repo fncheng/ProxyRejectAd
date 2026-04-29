@@ -28,7 +28,6 @@ host-suffix,github.dev,github
 host-suffix,githubcopilot.com,github
 host-suffix,copilot.github.com,github
 host-suffix,copilot-proxy.githubusercontent.com,github
-host-suffix,translate.googleapis.com,github
 host-suffix,vuejs.org,github
 host-suffix,mozilla.org,github
 host-suffix,apache.org,github
