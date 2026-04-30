@@ -65,4 +65,5 @@ packagecontrol.io
 +.live.com
 +.msauth.net
 +.office.com
++.hotmail.com
 

@@ -3,3 +3,5 @@ host-suffix,gemini.google.com,gemini
 host-suffix,gemini.gstatic.com,gemini
 host-suffix,googleusercontent.com,gemini
 host-suffix,oauthaccountmanager.googleapis.com,gemini
+host-suffix,play.googleapis.com,gemini
+host-suffix,app-analytics-services.com,gemini

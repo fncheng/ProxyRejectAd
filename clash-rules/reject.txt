@@ -24,4 +24,4 @@ manga18.club
 +.swscan.apple.com
 +.swdist.apple.com
 +.tpstelemetry.tencent.com
-
++.updates.cdn-apple.com

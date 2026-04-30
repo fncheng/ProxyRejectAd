@@ -3,3 +3,5 @@
 +.gemini.gstatic.com
 +.googleusercontent.com
 +.oauthaccountmanager.googleapis.com
++.play.googleapis.com
++.app-analytics-services.com

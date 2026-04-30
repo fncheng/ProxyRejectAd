@@ -1,7 +1,3 @@
-+.googleapis.com
-+.gstatic.com
-+.antigravity.google
-+.gvt1.com
 # cursor
 +.cursor.sh
 +.cursor.com

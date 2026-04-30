@@ -10,3 +10,15 @@ host-suffix,hero-sms.com,proxy
 host-suffix,pinterest.com,proxy
 host-suffix,pinimg.com,proxy
 host-suffix,tradingview.com,proxy
+host-suffix,stripe.com,proxy
+host-suffix,investing.com,proxy
+host-suffix,linux.do,proxy
+host-suffix,xbookcn.net,proxy
+host-suffix,reddit.com,proxy
+host-suffix,redditmedia.com,proxy
+host-suffix,redditstatic.com,proxy
+host-suffix,twitch.tv,proxy
+host-suffix,ttvnw.net,proxy
+host-suffix,jtvnw.net,proxy
+host-suffix,live-video.net,proxy
+host-suffix,branch.io,proxy

@@ -1,2 +1,10 @@
 host-suffix,translate.googleapis.com,google
 host-suffix,google.com,google
+host-suffix,gstatic.com,google
+host-suffix,googleapis.com,google
+host-suffix,antigravity.google,google
+host-suffix,gvt1.com,google
+host-suffix,gvt2.com,google
+host-suffix,youtube.com,google
+host-suffix,googlevideo.com,google
+host-suffix,ytimg.com,google

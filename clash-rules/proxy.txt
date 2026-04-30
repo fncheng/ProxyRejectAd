@@ -10,3 +10,17 @@
 +.pinterest.com
 +.pinimg.com
 +.tradingview.com
++.stripe.com
++.investing.com
++.linux.do
++.xbookcn.net
+# reddit
++.reddit.com
++.redditmedia.com
++.redditstatic.com
+# twitch
++.twitch.tv
++.ttvnw.net
++.jtvnw.net
++.live-video.net
++.branch.io

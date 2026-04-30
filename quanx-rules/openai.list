@@ -1,7 +1,3 @@
-host-suffix,googleapis.com,openai
-host-suffix,gstatic.com,openai
-host-suffix,antigravity.google,openai
-host-suffix,gvt1.com,openai
 host-suffix,cursor.sh,openai
 host-suffix,cursor.com,openai
 host-suffix,cursor-cdn.com,openai

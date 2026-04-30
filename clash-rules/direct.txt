@@ -47,7 +47,9 @@
 +.mi-img.com
 +.mifile.cn
 +.xiaomi.com
-
+# 麦当劳
++.mcd.cn
++.walmartmobile.cn
 
 # Alibaba
 +.alibaba.com

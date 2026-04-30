@@ -19,3 +19,4 @@ host-suffix,fjtroip.cn,reject
 host-suffix,swscan.apple.com,reject
 host-suffix,swdist.apple.com,reject
 host-suffix,tpstelemetry.tencent.com,reject
+host-suffix,updates.cdn-apple.com,reject
