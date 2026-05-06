@@ -8,10 +8,6 @@ host-suffix,cdn.oaistatic.com,openai
 host-suffix,oaiusercontent.com,openai
 host-suffix,chatgpt.com,openai
 host-suffix,imgur.com,openai
-host-suffix,claude.ai,openai
-host-suffix,anthropic.com,openai
-host-suffix,intercom.io,openai
-host-suffix,intercomcdn.com,openai
 host-suffix,x.ai,openai
 host-suffix,grok.com,openai
 host-suffix,featureassets.org,openai

@@ -9,11 +9,7 @@
 +.oaiusercontent.com
 +.chatgpt.com
 +.imgur.com
-# claude
-+.claude.ai
-+.anthropic.com
-+.intercom.io
-+.intercomcdn.com
+# grok
 +.x.ai
 +.grok.com
 +.featureassets.org
