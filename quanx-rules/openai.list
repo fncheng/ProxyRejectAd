@@ -12,4 +12,5 @@ host-suffix,x.ai,openai
 host-suffix,grok.com,openai
 host-suffix,featureassets.org,openai
 host-suffix,grokusercontent.com,openai
+host-suffix,cookielaw.org,openai
 host-suffix,codeium.com,openai

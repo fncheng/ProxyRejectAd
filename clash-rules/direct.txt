@@ -110,4 +110,5 @@
 +.wanmei.com
 # 银行
 +.cmbchina.com
++.boc.cn
 
