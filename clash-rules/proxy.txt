@@ -24,3 +24,40 @@
 +.jtvnw.net
 +.live-video.net
 +.branch.io
+# ---------------
++.vuejs.org
++.mozilla.org
++.apache.org
++.gitbook.com
++.ghcr.io
++.figma.com
++.tailwindcss.com
++.algolianet.com
++.ckeditor.com
++.codesandbox.io
++.csb.app
++.medium.com
++.jsdelivr.net
++.jsdelivr.com
++.packagecontrol.io
++.npmjs.com
++.npmjs.org
++.postman.com
+# microsoft
++.microsoft.com
++.windows.net
+# WSL下载
++.windowsupdate.com
+# vscode
++.msecnd.net
++.vsassets.io
++.visualstudio.com
++.vscode-cdn.net
+# outlook
++.outlook.com
++.office365.com
++.microsoftonline.com
++.live.com
++.msauth.net
++.office.com
++.hotmail.com
