@@ -8,3 +8,9 @@ host-suffix,gvt2.com,google
 host-suffix,youtube.com,google
 host-suffix,googlevideo.com,google
 host-suffix,ytimg.com,google
+host-suffix,postman.com,google
+host-suffix,getpostman.com,google
+host-suffix,pstmn.io,google
+host-suffix,newrelic.com,google
+host-suffix,launchdarkly.com,google
+host-suffix,nr-data.net,google

@@ -12,7 +12,6 @@ host-suffix,pinimg.com,proxy
 host-suffix,tradingview.com,proxy
 host-suffix,stripe.com,proxy
 host-suffix,investing.com,proxy
-host-suffix,linux.do,proxy
 host-suffix,xbookcn.net,proxy
 host-suffix,reddit.com,proxy
 host-suffix,redditmedia.com,proxy
@@ -44,9 +43,6 @@ host-suffix,microsoft.com,proxy
 host-suffix,windows.net,proxy
 host-suffix,windowsupdate.com,proxy
 host-suffix,msecnd.net,proxy
-host-suffix,vsassets.io,proxy
-host-suffix,visualstudio.com,proxy
-host-suffix,vscode-cdn.net,proxy
 host-suffix,outlook.com,proxy
 host-suffix,office365.com,proxy
 host-suffix,microsoftonline.com,proxy

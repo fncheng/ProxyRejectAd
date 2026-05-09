@@ -8,4 +8,11 @@
 +.youtube.com
 +.googlevideo.com
 +.ytimg.com
+# postman
++.postman.com
++.getpostman.com
++.pstmn.io
++.newrelic.com
++.launchdarkly.com
++.nr-data.net
 
