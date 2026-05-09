@@ -1,0 +1,8 @@
+linux.do
+ldstatic.com
+visualstudio.com
+download.prss.microsoft.com
+requestly.io
+amplitude.com
+browserstack.com
+cloudfront.net
