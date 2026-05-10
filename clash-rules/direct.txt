@@ -108,6 +108,7 @@
 +.zhimg.com
 +.douban.com
 +.wanmei.com
++.wmupd.com
 # 银行
 +.cmbchina.com
 +.boc.cn

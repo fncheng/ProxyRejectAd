@@ -14,6 +14,7 @@
 +.investing.com
 +.xbookcn.net
 # reddit
++.redd.it
 +.reddit.com
 +.redditmedia.com
 +.redditstatic.com
@@ -29,6 +30,7 @@
 +.apache.org
 +.gitbook.com
 +.ghcr.io
++.brew.sh
 +.figma.com
 +.tailwindcss.com
 +.algolianet.com
@@ -57,3 +59,5 @@
 +.msauth.net
 +.office.com
 +.hotmail.com
++.discord.com
++.sspcloud.me

@@ -13,6 +13,7 @@ host-suffix,tradingview.com,proxy
 host-suffix,stripe.com,proxy
 host-suffix,investing.com,proxy
 host-suffix,xbookcn.net,proxy
+host-suffix,redd.it,proxy
 host-suffix,reddit.com,proxy
 host-suffix,redditmedia.com,proxy
 host-suffix,redditstatic.com,proxy
@@ -26,6 +27,7 @@ host-suffix,mozilla.org,proxy
 host-suffix,apache.org,proxy
 host-suffix,gitbook.com,proxy
 host-suffix,ghcr.io,proxy
+host-suffix,brew.sh,proxy
 host-suffix,figma.com,proxy
 host-suffix,tailwindcss.com,proxy
 host-suffix,algolianet.com,proxy
@@ -50,3 +52,5 @@ host-suffix,live.com,proxy
 host-suffix,msauth.net,proxy
 host-suffix,office.com,proxy
 host-suffix,hotmail.com,proxy
+host-suffix,discord.com,proxy
+host-suffix,sspcloud.me,proxy
