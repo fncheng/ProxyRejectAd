@@ -12,3 +12,6 @@
 +.amplitude.com
 +.browserstack.com
 +.sentry.io
++.trafficmanager.net
++.data.microsoft.com
++.pythonhosted.org

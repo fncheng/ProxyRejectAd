@@ -17,6 +17,8 @@ host-suffix,pstatp.com,direct
 host-suffix,snssdk.com,direct
 host-suffix,toutiao.com,direct
 host-suffix,deepseek.com,direct
+host-suffix,cn.bing.com,direct
+host-suffix,mm.bing.net,direct
 host-suffix,netease.com,direct
 host-suffix,163.com,direct
 host-suffix,126.net,direct
@@ -88,5 +90,6 @@ host-suffix,zhihu.com,direct
 host-suffix,zhimg.com,direct
 host-suffix,douban.com,direct
 host-suffix,wanmei.com,direct
+host-suffix,wmupd.com,direct
 host-suffix,cmbchina.com,direct
 host-suffix,boc.cn,direct

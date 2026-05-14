@@ -24,6 +24,8 @@
 +.toutiao.com
 # 国内ai
 +.deepseek.com
++.cn.bing.com
++.mm.bing.net
 
 # NetEase
 +.netease.com

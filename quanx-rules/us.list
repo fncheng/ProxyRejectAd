@@ -12,3 +12,6 @@ host-suffix,requestly.io,us
 host-suffix,amplitude.com,us
 host-suffix,browserstack.com,us
 host-suffix,sentry.io,us
+host-suffix,trafficmanager.net,us
+host-suffix,data.microsoft.com,us
+host-suffix,pythonhosted.org,us
