@@ -1,5 +1,7 @@
 +.linux.do
 +.ldstatic.com
++.idcflare.com
++.v2ex.com
 +.visualstudio.com
 +.vsassets.io
 +.vscode-cdn.net
