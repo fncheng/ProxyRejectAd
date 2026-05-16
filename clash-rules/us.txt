@@ -17,3 +17,7 @@
 +.trafficmanager.net
 +.data.microsoft.com
 +.pythonhosted.org
++.whatsapp.net
++.whatsapp.com
++.wa.me
++.wl.c
