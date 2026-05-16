@@ -22,6 +22,10 @@ payload:
   - DOMAIN-SUFFIX,steamcontent.com,DIRECT
   - DOMAIN-SUFFIX,steampipe.akamaized.net,DIRECT
   - DOMAIN-SUFFIX,steam.clngaa.com,DIRECT
+  - DOMAIN-SUFFIX,dl.steam.clngaa.com,DIRECT
+  - DOMAIN-SUFFIX,dl.steam.ksyna.com,DIRECT
+  - DOMAIN-SUFFIX,st.dl.bscstorage.net,DIRECT
+  - DOMAIN-SUFFIX,dl.steam.cyngaa.com,DIRECT
   # Steam 登录 IP
   - IP-CIDR,239.255.255.250/24,Steam
   - IP-CIDR,103.28.54.181/24,Steam

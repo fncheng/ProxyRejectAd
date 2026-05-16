@@ -114,4 +114,4 @@
 # 银行
 +.cmbchina.com
 +.boc.cn
-
++.byteimg.com

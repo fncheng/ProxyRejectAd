@@ -19,6 +19,10 @@ host-suffix,gvt3.com,steam
 host-suffix,steamcontent.com,direct
 host-suffix,steampipe.akamaized.net,direct
 host-suffix,steam.clngaa.com,direct
+host-suffix,dl.steam.clngaa.com,direct
+host-suffix,dl.steam.ksyna.com,direct
+host-suffix,st.dl.bscstorage.net,direct
+host-suffix,dl.steam.cyngaa.com,direct
 ip-cidr,239.255.255.250/24,steam
 ip-cidr,103.28.54.181/24,steam
 ip-cidr,162.254.193.6/16,steam
