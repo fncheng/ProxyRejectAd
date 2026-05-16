@@ -1,0 +1,10 @@
+payload:
+  # Bybit
+  - DOMAIN-KEYWORD,bybit,AU
+  - DOMAIN-SUFFIX,bybit.com,AU
+  - DOMAIN-SUFFIX,bybit.net,AU
+  - DOMAIN-SUFFIX,byapps.net,AU
+  - DOMAIN-SUFFIX,byd3c3.com,AU
+  - DOMAIN-SUFFIX,bybdc6.com,AU
+  - DOMAIN-SUFFIX,byabcde.com,AU
+  - DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com,AU
