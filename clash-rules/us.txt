@@ -21,3 +21,4 @@
 +.whatsapp.com
 +.wa.me
 +.wl.c
++.hotmail.com
