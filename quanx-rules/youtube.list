@@ -2,3 +2,6 @@ host-suffix,youtube.com,youtube
 host-suffix,googlevideo.com,youtube
 host-suffix,ytimg.com,youtube
 host-suffix,youtu.be,youtube
+host-suffix,youtube.googleapis.com,youtube
+host-suffix,youtubei.googleapis.com,youtube
+host-suffix,yt3.ggpht.com,youtube
