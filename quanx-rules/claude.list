@@ -1,5 +1,6 @@
 host-suffix,anthropic.com,claude
 host-suffix,claude.ai,claude
+host-suffix,claude.com,claude
 host-suffix,usefathom.com,claude
 host-suffix,intercom.io,claude
 host-suffix,intercomcdn.com,claude

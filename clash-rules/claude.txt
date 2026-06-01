@@ -1,5 +1,6 @@
 +.anthropic.com
 +.claude.ai
++.claude.com
 +.usefathom.com
 +.intercom.io
 +.intercomcdn.com
