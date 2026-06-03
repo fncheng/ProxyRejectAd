@@ -72,7 +72,6 @@
 +.coolapk.com
 +.pcbeta.com
 +.zuanke8.com
-+.eastmoney.com
 +.datetime360.com
 # CDN
 +.akadns.net
@@ -115,3 +114,5 @@
 +.cmbchina.com
 +.boc.cn
 +.byteimg.com
++.eastmoney.com
++.eastmoneysec.com

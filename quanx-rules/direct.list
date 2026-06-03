@@ -54,7 +54,6 @@ host-suffix,amazon.cn,direct
 host-suffix,coolapk.com,direct
 host-suffix,pcbeta.com,direct
 host-suffix,zuanke8.com,direct
-host-suffix,eastmoney.com,direct
 host-suffix,datetime360.com,direct
 host-suffix,akadns.net,direct
 host-suffix,ipip.net,direct
@@ -94,3 +93,5 @@ host-suffix,wmupd.com,direct
 host-suffix,cmbchina.com,direct
 host-suffix,boc.cn,direct
 host-suffix,byteimg.com,direct
+host-suffix,eastmoney.com,direct
+host-suffix,eastmoneysec.com,direct
