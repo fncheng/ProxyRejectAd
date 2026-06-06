@@ -10,6 +10,7 @@ host-suffix,qpic.cn,direct
 host-suffix,tencent.com,direct
 host-suffix,tencentcos.cn,direct
 host-suffix,weixin.com,direct
+host-suffix,npmmirror.com,direct
 host-suffix,baidu.com,direct
 host-suffix,bdstatic.com,direct
 host-suffix,bytecdn.cn,direct

@@ -13,6 +13,8 @@
 +.tencent.com
 +.tencentcos.cn
 +.weixin.com
+# dev
++.npmmirror.com
 
 # Baidu
 +.baidu.com
