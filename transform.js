@@ -3,7 +3,7 @@ const path = require('node:path')
 
 const clashRulesDir = path.join(__dirname, 'clash-rules')
 const quanxRulesDir = path.join(__dirname, 'quanx-rules')
-const transformWhitelistPath = path.join(__dirname, 'transform-whitelist.json')
+const transformConfigPath = path.join(__dirname, 'transform-whitelist.json')
 
 // Clash 规则类型 -> Quantumult X 规则类型映射
 const RULE_TYPE_MAP = {
@@ -15,53 +15,93 @@ const RULE_TYPE_MAP = {
 }
 
 /**
- * 读取转换白名单。白名单内文件将跳过转换。
- * 支持写文件名（如 steamdl.txt）或相对路径（如 clash-rules/steamdl.txt）。
+ * 读取转换配置。
+ * whitelist: 白名单内文件将跳过转换。
+ * policies: txt 文件转换时使用的策略名称；未配置时使用文件名。
+ * 文件匹配支持文件名（如 steamdl.txt）或相对路径（如 clash-rules/steamdl.txt）。
  */
-function loadTransformWhitelist() {
-  if (!fs.existsSync(transformWhitelistPath)) {
-    return new Set()
+function loadTransformConfig() {
+  if (!fs.existsSync(transformConfigPath)) {
+    return {
+      whitelist: new Set(),
+      policies: new Map(),
+    }
   }
 
   let config
   try {
-    config = JSON.parse(fs.readFileSync(transformWhitelistPath, 'utf8'))
+    config = JSON.parse(fs.readFileSync(transformConfigPath, 'utf8'))
   } catch (err) {
-    console.error(`读取转换白名单失败: ${transformWhitelistPath}`, err)
+    console.error(`读取转换配置失败: ${transformConfigPath}`, err)
     process.exit(1)
   }
 
-  const files = Array.isArray(config) ? config : config.files
-  if (!Array.isArray(files)) {
-    console.error('转换白名单配置必须是数组，或包含 files 数组')
+  const whitelist = Array.isArray(config) ? config : config.whitelist || config.files || []
+  if (!Array.isArray(whitelist)) {
+    console.error('转换配置中的 whitelist 必须是数组')
     process.exit(1)
   }
 
-  return new Set(
-    files
-      .filter((file) => typeof file === 'string')
-      .map((file) => normalizeWhitelistEntry(file))
-      .filter((file) => file !== ''),
-  )
+  const policies = Array.isArray(config) ? {} : config.policies || config.rules || {}
+  if (!policies || typeof policies !== 'object' || Array.isArray(policies)) {
+    console.error('转换配置中的 policies 必须是对象')
+    process.exit(1)
+  }
+
+  return {
+    whitelist: new Set(
+      whitelist
+        .filter((file) => typeof file === 'string')
+        .map((file) => normalizeConfigFile(file))
+        .filter((file) => file !== ''),
+    ),
+    policies: new Map(
+      Object.entries(policies)
+        .filter((entry) => typeof entry[1] === 'string' && entry[1].trim() !== '')
+        .map(([file, policy]) => [normalizeConfigFile(file), policy.trim()]),
+    ),
+  }
 }
 
-function normalizeWhitelistEntry(file) {
+function normalizeConfigFile(file) {
   return file.trim().replace(/\\/g, '/').replace(/^\.\//, '')
 }
 
-function isWhitelisted(inputFile) {
+function getFileMatchKeys(inputFile) {
   const absoluteFile = path.resolve(inputFile)
-  const relativeToRoot = normalizeWhitelistEntry(path.relative(__dirname, absoluteFile))
-  const relativeToClashRules = normalizeWhitelistEntry(path.relative(clashRulesDir, absoluteFile))
   const baseName = path.basename(inputFile)
+  const nameWithoutExt = path.parse(baseName).name
 
-  return [relativeToRoot, relativeToClashRules, baseName].some((file) => transformWhitelist.has(file))
+  return [
+    normalizeConfigFile(path.relative(__dirname, absoluteFile)),
+    normalizeConfigFile(path.relative(clashRulesDir, absoluteFile)),
+    baseName,
+    nameWithoutExt,
+  ]
+}
+
+function isWhitelisted(inputFile) {
+  return getFileMatchKeys(inputFile).some((file) => transformConfig.whitelist.has(file))
+}
+
+function getPolicy(inputFile) {
+  const configuredPolicy = getFileMatchKeys(inputFile)
+    .map((file) => transformConfig.policies.get(file))
+    .find((policy) => policy)
+
+  return configuredPolicy || path.parse(path.basename(inputFile)).name
+}
+
+function getSupportedFiles(files) {
+  return files
+    .filter((file) => typeof file === 'string')
+    .filter((file) => ['.txt', '.yaml'].includes(path.extname(file).toLowerCase()))
 }
 
 /**
  * 将 txt 格式的域名列表转换为 Quantumult X 规则行
  * @param {string} data 文件内容
- * @param {string} policy 策略名称（取自文件名）
+ * @param {string} policy 策略名称
  */
 function convertTxtLines(data, policy) {
   return data
@@ -108,6 +148,7 @@ function convertFile(inputFile) {
 
   const ext = path.extname(inputFile).toLowerCase()
   const inputFileNameWithoutExt = path.parse(path.basename(inputFile)).name
+  const policy = getPolicy(inputFile)
   const outputFilePath = path.join(quanxRulesDir, `${inputFileNameWithoutExt}.list`)
 
   fs.readFile(inputFile, 'utf8', (err, data) => {
@@ -116,7 +157,7 @@ function convertFile(inputFile) {
       return
     }
 
-    const rules = ext === '.yaml' ? convertYamlLines(data) : convertTxtLines(data, inputFileNameWithoutExt)
+    const rules = ext === '.yaml' ? convertYamlLines(data) : convertTxtLines(data, policy)
     const outputContent = rules.join('\n')
 
     fs.writeFile(outputFilePath, outputContent, 'utf8', (err) => {
@@ -129,7 +170,7 @@ function convertFile(inputFile) {
   })
 }
 
-const transformWhitelist = loadTransformWhitelist()
+const transformConfig = loadTransformConfig()
 const inputFile = process.argv[2]
 
 if (inputFile) {
@@ -143,7 +184,7 @@ if (inputFile) {
       process.exit(1)
     }
 
-    const targetFiles = files.filter((f) => ['.txt', '.yaml'].includes(path.extname(f).toLowerCase()))
+    const targetFiles = getSupportedFiles(files)
 
     if (targetFiles.length === 0) {
       console.log('clash-rules 目录下没有找到任何 .txt 或 .yaml 文件')

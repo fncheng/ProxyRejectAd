@@ -39,18 +39,24 @@ node transform.js clash-rules/reject.txt
 node transform.js
 ```
 
-### 跳过指定文件
+### 转换配置
 
-编辑 `transform-whitelist.json`，把不想参与转换的文件加入数组。支持文件名或相对路径：
+编辑 `transform-whitelist.json`，可以配置不参与转换的文件，也可以为 `.txt` 文件指定转换后的策略名称。文件匹配支持文件名或相对路径：
 
 ```json
-[
-  "steamdl.txt",
-  "clash-rules/user.yaml"
-]
+{
+  "whitelist": [
+    "steamdl.txt",
+    "clash-rules/user.yaml"
+  ],
+  "policies": {
+    "bilibili.txt": "DIRECT",
+    "clash-rules/netflix.txt": "Netflix"
+  }
+}
 ```
 
-白名单内文件在批量转换和单文件转换时都会被跳过。
+白名单内文件在批量转换和单文件转换时都会被跳过。`.txt` 文件没有配置 `policies` 时，仍然使用文件名作为策略名称。
 
 ## 规则转换逻辑
 

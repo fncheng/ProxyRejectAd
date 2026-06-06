@@ -1,4 +1,9 @@
-[
-  "steam.yaml",
-  "steamdl.txt"
-]
+{
+  "whitelist": [
+    "steam.yaml",
+    "steamdl.txt"
+  ],
+  "policies": {
+    "bilibili.txt": "direct"
+  }
+}
