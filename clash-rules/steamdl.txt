@@ -1,0 +1,8 @@
++.steamcontent.com
++.steampipe.akamaized.net
++.steam.clngaa.com
++.dl.steam.clngaa.com
++.dl.steam.ksyna.com
++.st.dl.bscstorage.net
++.dl.steam.cyngaa.com
++.epicgames-download1.akamaized.net

@@ -3,6 +3,7 @@ const path = require('node:path')
 
 const clashRulesDir = path.join(__dirname, 'clash-rules')
 const quanxRulesDir = path.join(__dirname, 'quanx-rules')
+const transformWhitelistPath = path.join(__dirname, 'transform-whitelist.json')
 
 // Clash 规则类型 -> Quantumult X 规则类型映射
 const RULE_TYPE_MAP = {
@@ -11,6 +12,50 @@ const RULE_TYPE_MAP = {
   'DOMAIN': 'host',
   'IP-CIDR': 'ip-cidr',
   'IP-CIDR6': 'ip6-cidr',
+}
+
+/**
+ * 读取转换白名单。白名单内文件将跳过转换。
+ * 支持写文件名（如 steamdl.txt）或相对路径（如 clash-rules/steamdl.txt）。
+ */
+function loadTransformWhitelist() {
+  if (!fs.existsSync(transformWhitelistPath)) {
+    return new Set()
+  }
+
+  let config
+  try {
+    config = JSON.parse(fs.readFileSync(transformWhitelistPath, 'utf8'))
+  } catch (err) {
+    console.error(`读取转换白名单失败: ${transformWhitelistPath}`, err)
+    process.exit(1)
+  }
+
+  const files = Array.isArray(config) ? config : config.files
+  if (!Array.isArray(files)) {
+    console.error('转换白名单配置必须是数组，或包含 files 数组')
+    process.exit(1)
+  }
+
+  return new Set(
+    files
+      .filter((file) => typeof file === 'string')
+      .map((file) => normalizeWhitelistEntry(file))
+      .filter((file) => file !== ''),
+  )
+}
+
+function normalizeWhitelistEntry(file) {
+  return file.trim().replace(/\\/g, '/').replace(/^\.\//, '')
+}
+
+function isWhitelisted(inputFile) {
+  const absoluteFile = path.resolve(inputFile)
+  const relativeToRoot = normalizeWhitelistEntry(path.relative(__dirname, absoluteFile))
+  const relativeToClashRules = normalizeWhitelistEntry(path.relative(clashRulesDir, absoluteFile))
+  const baseName = path.basename(inputFile)
+
+  return [relativeToRoot, relativeToClashRules, baseName].some((file) => transformWhitelist.has(file))
 }
 
 /**
@@ -56,6 +101,11 @@ function convertYamlLines(data) {
  * 将单个文件转换并写入 quanx-rules 目录（输出为 .list）
  */
 function convertFile(inputFile) {
+  if (isWhitelisted(inputFile)) {
+    console.log(`跳过白名单文件: ${path.basename(inputFile)}`)
+    return
+  }
+
   const ext = path.extname(inputFile).toLowerCase()
   const inputFileNameWithoutExt = path.parse(path.basename(inputFile)).name
   const outputFilePath = path.join(quanxRulesDir, `${inputFileNameWithoutExt}.list`)
@@ -79,6 +129,7 @@ function convertFile(inputFile) {
   })
 }
 
+const transformWhitelist = loadTransformWhitelist()
 const inputFile = process.argv[2]
 
 if (inputFile) {

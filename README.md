@@ -39,6 +39,19 @@ node transform.js clash-rules/reject.txt
 node transform.js
 ```
 
+### 跳过指定文件
+
+编辑 `transform-whitelist.json`，把不想参与转换的文件加入数组。支持文件名或相对路径：
+
+```json
+[
+  "steamdl.txt",
+  "clash-rules/user.yaml"
+]
+```
+
+白名单内文件在批量转换和单文件转换时都会被跳过。
+
 ## 规则转换逻辑
 
 | 输入格式（clash-rules/*.txt） | 输出格式（quanx-rules/*.snippet）           |
