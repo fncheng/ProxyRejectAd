@@ -23,3 +23,7 @@
 +.wl.c
 +.hotmail.com
 +.windsurf.com
++.docker.io
++.docker.com
++.cloudflarestorage.com
++.compose-spec.io
