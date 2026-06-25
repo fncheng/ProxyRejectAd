@@ -10,7 +10,3 @@ payload:
   - DOMAIN-SUFFIX,github.blog,GitHub
   - DOMAIN-SUFFIX,github.community,GitHub
   - DOMAIN-SUFFIX,githubcopilot.com,GitHub
-  - IP-CIDR,185.199.108.0/22,GitHub
-  - IP-CIDR,192.30.252.0/22,GitHub
-  - IP-CIDR,140.82.112.0/20,GitHub
-  - IP-CIDR,143.55.64.0/20,GitHub
