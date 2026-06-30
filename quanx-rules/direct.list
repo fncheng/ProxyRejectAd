@@ -13,6 +13,8 @@ host-suffix,weixin.com,direct
 host-suffix,npmmirror.com,direct
 host-suffix,baidu.com,direct
 host-suffix,bdstatic.com,direct
+host-suffix,bytedance.com,direct
+host-suffix,bytetcc.com,direct
 host-suffix,bytecdn.cn,direct
 host-suffix,pstatp.com,direct
 host-suffix,snssdk.com,direct

@@ -20,6 +20,8 @@
 +.baidu.com
 +.bdstatic.com
 # 字节跳动
++.bytedance.com
++.bytetcc.com
 +.bytecdn.cn
 +.pstatp.com
 +.snssdk.com
