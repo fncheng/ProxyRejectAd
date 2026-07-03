@@ -36,6 +36,7 @@
 +.163.com
 +.126.net
 +.163yun.com
++.youdao.com
 # Sohu
 +.sohu.com.cn
 +.itc.cn
