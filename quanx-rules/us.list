@@ -26,4 +26,5 @@ host-suffix,windsurf.com,us
 host-suffix,docker.io,us
 host-suffix,docker.com,us
 host-suffix,cloudflarestorage.com,us
+host-suffix,cloudflareinsights.com,us
 host-suffix,compose-spec.io,us

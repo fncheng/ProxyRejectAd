@@ -26,4 +26,5 @@
 +.docker.io
 +.docker.com
 +.cloudflarestorage.com
++.cloudflareinsights.com
 +.compose-spec.io
