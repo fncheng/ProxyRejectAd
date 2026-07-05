@@ -26,6 +26,10 @@
 +.pstatp.com
 +.snssdk.com
 +.toutiao.com
++.douyin.com
++.novelquickapp.com
++.volcvod.com
++.bytedance.net
 # 国内ai
 +.deepseek.com
 +.cn.bing.com
