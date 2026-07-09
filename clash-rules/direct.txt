@@ -30,6 +30,7 @@
 +.novelquickapp.com
 +.volcvod.com
 +.bytedance.net
++.doubao.com
 # 国内ai
 +.deepseek.com
 +.cn.bing.com

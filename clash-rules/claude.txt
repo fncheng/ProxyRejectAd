@@ -1,7 +1,9 @@
 +.anthropic.com
 +.claude.ai
 +.claude.com
++.claudeusercontent.com
 +.usefathom.com
 +.intercom.io
 +.intercomcdn.com
 +.statsig.com
++.browser-intake-us5-datadoghq.com

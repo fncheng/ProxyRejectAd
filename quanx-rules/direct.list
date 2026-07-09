@@ -19,6 +19,11 @@ host-suffix,bytecdn.cn,direct
 host-suffix,pstatp.com,direct
 host-suffix,snssdk.com,direct
 host-suffix,toutiao.com,direct
+host-suffix,douyin.com,direct
+host-suffix,novelquickapp.com,direct
+host-suffix,volcvod.com,direct
+host-suffix,bytedance.net,direct
+host-suffix,doubao.com,direct
 host-suffix,deepseek.com,direct
 host-suffix,cn.bing.com,direct
 host-suffix,mm.bing.net,direct
