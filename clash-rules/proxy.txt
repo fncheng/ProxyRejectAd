@@ -61,3 +61,7 @@
 +.hotmail.com
 +.discord.com
 +.sspcloud.me
++.linux.do
++.ldstatic.com
++.idcflare.com
++.v2ex.com
