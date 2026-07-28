@@ -1,14 +1,12 @@
-# cursor
-+.cursor.sh
-+.cursor.com
-+.cursor-cdn.com
-+.api.workos.com
-+.stripe.com
+# openai
 +.openai.com
 +.cdn.oaistatic.com
 +.oaiusercontent.com
 +.chatgpt.com
++.sora.com
 +.imgur.com
++.api.workos.com
++.oaistatsig.com
 # grok
 +.x.ai
 +.grok.com

@@ -54,3 +54,10 @@ host-suffix,office.com,proxy
 host-suffix,hotmail.com,proxy
 host-suffix,discord.com,proxy
 host-suffix,sspcloud.me,proxy
+host-suffix,linux.do,proxy
+host-suffix,ldstatic.com,proxy
+host-suffix,idcflare.com,proxy
+host-suffix,v2ex.com,proxy
+host-suffix,cursor.sh,proxy
+host-suffix,cursor.com,proxy
+host-suffix,cursor-cdn.com,proxy
