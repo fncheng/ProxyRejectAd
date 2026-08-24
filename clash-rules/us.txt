@@ -24,3 +24,8 @@
 +.cloudflarestorage.com
 +.cloudflareinsights.com
 +.compose-spec.io
+# grok
++.x.ai
++.grok.com
++.featureassets.org
++.grokusercontent.com

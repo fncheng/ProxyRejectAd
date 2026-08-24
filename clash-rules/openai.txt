@@ -7,10 +7,5 @@
 +.imgur.com
 +.api.workos.com
 +.oaistatsig.com
-# grok
-+.x.ai
-+.grok.com
-+.featureassets.org
-+.grokusercontent.com
 +.cookielaw.org
 +.codeium.com
