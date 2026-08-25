@@ -1,6 +1,6 @@
 # openai
 +.openai.com
-+.cdn.oaistatic.com
++.oaistatic.com
 +.oaiusercontent.com
 +.chatgpt.com
 +.sora.com
